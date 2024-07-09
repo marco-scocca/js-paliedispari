@@ -8,3 +8,5 @@ function checkPalindroma(string) {
         console.log('la stringa non è palindroma');
     }
 }
+let word = prompt('inserisci la parola da verificare');
+checkPalindroma(word.toLowerCase());
