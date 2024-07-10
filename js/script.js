@@ -15,3 +15,11 @@ checkPalindroma(word.toLowerCase());
 function generateRandomNumber() {
     return Math.floor(Math.random() * 6);
 }
+
+function checkEvenOrOdd(sum) {
+    if (sum % 2 === 0) {
+        return 'pari';
+    }
+    return 'dispari';
+}
+
