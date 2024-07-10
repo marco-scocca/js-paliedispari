@@ -10,3 +10,8 @@ function checkPalindroma(string) {
 }
 let word = prompt('inserisci la parola da verificare');
 checkPalindroma(word.toLowerCase());
+
+
+function generateRandomNumber() {
+    return Math.floor(Math.random() * 6);
+}
