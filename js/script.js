@@ -27,5 +27,11 @@ let even_or_odd = prompt('inserisci la parola "pari" o "dispari"');
 let number = prompt('inserisci un valore numerico compreso tra 1 e 5');
 let pc_number = generateRandomNumber();
 let sum = number + pc_number;
-
+let result = checkEvenOrOdd(sum);
+if (even_or_odd.toLowerCase() === result) {
+    console.log('Hai vinto')
+}
+else {
+    console.log('hai perso');
+}
 
